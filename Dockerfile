@@ -4,7 +4,7 @@ FROM centos
 MAINTAINER rammohan version: 1.0
 #####install LAMP######
  
-RUN yum install mysqld -y 
+RUN yum install mysql -y 
 
 ##########expose the container to the outside world#########
 EXPOSE 80 443 
